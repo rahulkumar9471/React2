@@ -5,7 +5,7 @@ import './schoollist.css';
 
 const SchoolList = (props) => { 
 
-  let [name, setName] = useState(props.name);
+  const [name, setName] = useState(props.name);
 
   function clickHandler () {
     setName('ZYX');

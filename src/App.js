@@ -1,6 +1,7 @@
 import React from 'react' 
 import Schools from "./components/Schools";
 import "./App.css";
+import AddSchool from './components/AddSchool';
 
 const App = () => {
   const SchoolsInfo = [
@@ -16,9 +17,16 @@ const App = () => {
       fee: 1000,
       date: new Date(2000, 8, 10),
     }
-  ]
+  ];
+
+  function printSchoolData(data) {
+    console.log("app.js");
+    console.log(data);
+  }
+
   return (
     <div className="App">
+      <AddSchool printData={printSchoolData}/>
        <Schools info={SchoolsInfo}>
         <h1>School List</h1>
         </Schools> 
