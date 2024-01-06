@@ -1,0 +1,9 @@
+.date{
+    border: 2px solid;
+    width: 100px;
+    text-align: center;
+}
+
+.date p {
+    margin: 5px;
+}

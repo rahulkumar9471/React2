@@ -1,0 +1,9 @@
+.schoollist{
+    display :flex; 
+    text-align: center;
+    width: 400px;
+    border : 1px solid red;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
